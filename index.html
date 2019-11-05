@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="index.css" rel="stylesheet" type="text/css">
+    <title>Pop these niggas</title>
+    
+</head>
+<style type="text/css">
+    TABLE {
+     width: 300px; /* Ширина таблицы */
+     border-collapse: collapse; /* Убираем двойные линии между ячейками */
+     height: 300px;
+    }
+    TD, TH {
+     padding: 3px; /* Поля вокруг содержимого таблицы */
+     border: 1px solid black; /* Параметры рамки */
+     width: 100px;
+     height:  100px;
+    }
+    TH {
+     background: #b0e0e6; /* Цвет фона */
+    }
+   </style>
+<body>
+    <button class="new-game">Новая Игра!</button>
+    <table class = "TABLE"  bordercolor = "black" cellspacing = "50px"  > 
+        <tr>
+          <td class = "pin"></td>
+          <td class = "pin"></td>
+          <td class = "pin"></td>
+        </tr>
+        <tr>
+            <td class = "pin" ></td>
+            <td class = "pin"></td>
+            <td class = "pin"></td>
+        </tr>
+        <tr>
+            <td class = "pin"></td>
+            <td class = "pin" ></td>
+            <td class = "pin"></td>
+        </tr>
+      </table>
+
+      
+      <div class = 'result'> </div>
+      <script src = "index.js"></script>
+</body>
+</html>
